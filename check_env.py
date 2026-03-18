@@ -1,0 +1,8 @@
+# -*- coding: utf-8 -*-
+import torch
+print(f"PyTorch 版本: {torch.__version__}")
+print(f"CUDA 是否可用: {torch.cuda.is_available()}")
+
+# 创建一个随机张量
+x = torch.rand(5, 3)
+print(x)
