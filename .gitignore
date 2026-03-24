@@ -1,0 +1,23 @@
+# 忽略系统文件
+debug.log
+
+# 忽略Python生成的文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 忽略IDE生成的文件
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 忽略操作系统生成的文件
+Thumbs.db
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
